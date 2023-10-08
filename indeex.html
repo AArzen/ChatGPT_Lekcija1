@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moj Profil</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #0f0; /* Zelena barva za naslov */
+            animation: blink 1s infinite alternate;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.2;
+            }
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #222;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #0f0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Moj Profil</h1>
+    </header>
+    <section>
+        <h2>Osebni Podatki</h2>
+        <p>Ime: Janez Novak</p>
+        <p>Priimek: Novak</p>
+        <p>Starost: 30 let</p>
+        <p>Naslov: Primer ulica 123, 1000 Ljubljana</p>
+        <p>E-pošta: janez.novak@email.com</p>
+        <p>Telefon: 01 234 5678</p>
+        <p>Vreme v Ljubljani: <a href="https://www.accuweather.com/sl/si/ljubljana/299198/current-weather/299198" target="_blank">Poglej vreme</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Janez Novak</p>
+    </footer>
+</body>
+</html>
